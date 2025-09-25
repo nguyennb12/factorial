@@ -1,0 +1,5 @@
+autofix_prs: true
+autoupdate_schedule: monthly
+skip: []
+# Optional: customize the commit message pre-commit-ci uses
+autofix_commit_msg: "chore(pre-commit): autofix from pre-commit hooks"
