@@ -1,7 +1,7 @@
 repos:
   # Fix whitespace / EOF automatically
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -10,21 +10,21 @@ repos:
 
   # Format with Black
   - repo: https://github.com/psf/black
-    rev: 24.8.0
+    rev: 25.9.0
     hooks:
       - id: black
         language_version: python3
 
   # Sort imports
   - repo: https://github.com/PyCQA/isort
-    rev: 5.13.2
+    rev: 6.0.1
     hooks:
       - id: isort
         additional_dependencies: ["tomli"]  
 
   # Lint with pylint (uses the CLI)
   - repo: https://github.com/PyCQA/pylint
-    rev: v3.2.7
+    rev: v3.3.8
     hooks:
       - id: pylint
         args:
