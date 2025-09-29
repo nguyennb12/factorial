@@ -20,7 +20,7 @@ repos:
     rev: 6.0.1
     hooks:
       - id: isort
-        additional_dependencies: ["tomli"]  
+        additional_dependencies: ["tomli"]
 
   # Lint with pylint (uses the CLI)
   - repo: https://github.com/PyCQA/pylint
@@ -28,4 +28,4 @@ repos:
     hooks:
       - id: pylint
         args:
-          - "--errors-only"       
+          - "--errors-only"
