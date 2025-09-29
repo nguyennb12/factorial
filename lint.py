@@ -1,5 +1,6 @@
 # lint.py
 import sys
+
 from pylint import lint
 
 THRESHOLD = 9.0
